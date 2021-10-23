@@ -1,5 +1,5 @@
 
-rootProject.name = "kotlin-mvvm-hilt-flow-ktor"
+rootProject.name = "kotlin-dsl"
 
 enableFeaturePreview("VERSION_CATALOGS")
 

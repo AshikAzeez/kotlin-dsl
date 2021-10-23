@@ -4,5 +4,4 @@
  */
 object Module {
     const val MODULE_APP= ":app"
-    const val MODULE_API= ":api"
 }

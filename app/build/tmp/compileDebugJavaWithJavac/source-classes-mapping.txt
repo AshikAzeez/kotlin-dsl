@@ -1,0 +1,2 @@
+com/sample/kotlin_mvvm_hilt_flow_ktor/BuildConfig.java
+ com.sample.kotlin_mvvm_hilt_flow_ktor.BuildConfig

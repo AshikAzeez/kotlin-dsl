@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sample.kotlin_mvvm_hilt_flow_ktor"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/ashik/Ashik/AndroidProjects/myProjects/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/home/ashik/Ashik/AndroidProjects/myProjects/app/src/main/AndroidManifest.xml
+10
+11    <queries>
+11-->[androidx.test:runner:1.4.0] /home/ashik/.gradle/caches/transforms-3/328cfa0be0465fc08a1d1f1b2147fe12/transformed/runner-1.4.0/AndroidManifest.xml:24:5-28:15
+12        <package android:name="androidx.test.orchestrator" />
+12-->[androidx.test:runner:1.4.0] /home/ashik/.gradle/caches/transforms-3/328cfa0be0465fc08a1d1f1b2147fe12/transformed/runner-1.4.0/AndroidManifest.xml:25:9-62
+12-->[androidx.test:runner:1.4.0] /home/ashik/.gradle/caches/transforms-3/328cfa0be0465fc08a1d1f1b2147fe12/transformed/runner-1.4.0/AndroidManifest.xml:25:18-59
+13        <package android:name="androidx.test.services" />
+13-->[androidx.test:runner:1.4.0] /home/ashik/.gradle/caches/transforms-3/328cfa0be0465fc08a1d1f1b2147fe12/transformed/runner-1.4.0/AndroidManifest.xml:26:9-58
+13-->[androidx.test:runner:1.4.0] /home/ashik/.gradle/caches/transforms-3/328cfa0be0465fc08a1d1f1b2147fe12/transformed/runner-1.4.0/AndroidManifest.xml:26:18-55
+14        <package android:name="com.google.android.apps.common.testing.services" />
+14-->[androidx.test:runner:1.4.0] /home/ashik/.gradle/caches/transforms-3/328cfa0be0465fc08a1d1f1b2147fe12/transformed/runner-1.4.0/AndroidManifest.xml:27:9-83
+14-->[androidx.test:runner:1.4.0] /home/ashik/.gradle/caches/transforms-3/328cfa0be0465fc08a1d1f1b2147fe12/transformed/runner-1.4.0/AndroidManifest.xml:27:18-80
+15    </queries>
+16
+17    <uses-permission android:name="android.permission.REORDER_TASKS" />
+17-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:24:5-72
+17-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:24:22-69
+18
+19    <application
+19-->/home/ashik/Ashik/AndroidProjects/myProjects/app/src/main/AndroidManifest.xml:5:5-11:63
+20        android:allowBackup="true"
+20-->/home/ashik/Ashik/AndroidProjects/myProjects/app/src/main/AndroidManifest.xml:6:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.5.0] /home/ashik/.gradle/caches/transforms-3/2112da307118c3842c6bd641a0a81726/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/home/ashik/Ashik/AndroidProjects/myProjects/app/src/main/AndroidManifest.xml:7:9-43
+24        android:label="@string/app_name"
+24-->/home/ashik/Ashik/AndroidProjects/myProjects/app/src/main/AndroidManifest.xml:8:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/home/ashik/Ashik/AndroidProjects/myProjects/app/src/main/AndroidManifest.xml:9:9-54
+26        android:supportsRtl="true"
+26-->/home/ashik/Ashik/AndroidProjects/myProjects/app/src/main/AndroidManifest.xml:10:9-35
+27        android:theme="@style/Theme.Kotlinmvvmhiltflowktor" >
+27-->/home/ashik/Ashik/AndroidProjects/myProjects/app/src/main/AndroidManifest.xml:11:9-60
+28        <activity
+28-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:27:9-34:20
+29            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+29-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:28:13-99
+30            android:exported="true"
+30-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:29:13-36
+31            android:theme="@android:style/Theme" >
+31-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:30:13-49
+32            <intent-filter>
+32-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:32:17-69
+33-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:32:25-66
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:35:9-42:20
+37            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+37-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:36:13-95
+38            android:exported="true"
+38-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:37:13-36
+39            android:theme="@android:style/Theme" >
+39-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:38:13-49
+40            <intent-filter>
+40-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:32:17-69
+41-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:32:25-66
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:43:9-50:20
+45            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+45-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:44:13-103
+46            android:exported="true"
+46-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:45:13-36
+47            android:theme="@android:style/Theme.Dialog" >
+47-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:46:13-56
+48            <intent-filter>
+48-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:32:17-69
+49-->[androidx.test:core:1.4.0] /home/ashik/.gradle/caches/transforms-3/1ad99d6c576954d11f7628b03d0d10f9/transformed/jetified-core-1.4.0/AndroidManifest.xml:32:25-66
+50            </intent-filter>
+51        </activity>
+52    </application>
+53
+54</manifest>

@@ -4,8 +4,7 @@
  */
 object Config {
 
-    const val applicatiınId = "com.sample.kotlin_mvvm_hilt_flow_ktor"
-    const val apiApplicatiınId = "com.sample.api"
+    const val applicatiınId = "com.sample.kotlin_dsl"
     const val testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
 
     
